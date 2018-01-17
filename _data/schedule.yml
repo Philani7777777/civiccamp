@@ -1,0 +1,64 @@
+- 
+  date: "2018-03-03"
+  dateReadable: "March 3"
+  tracks: 
+    - {title: "Open Data", color: "#90be4e"}
+    - {title: "Data Journalism", color: "#03a9f4"}
+    - {title: "Hackathon", color: "#e91e63"}
+  timeslots:
+    - {
+    	startTime: "8:30",
+    	endTime: "9:00",
+    	sessionIds: [001]
+    }
+    - {
+        startTime: "9:00",
+        endTime: "9:15",
+        sessionIds: [002]
+    }
+    - {
+        startTime: "9:15",
+        endTime: "9:45",
+        sessionIds: [003]
+    }
+    - {
+        startTime: "9:45",
+        endTime: "10:30",
+        sessionIds: [404, 404, 004]
+    }
+    - {
+        startTime: "10:45",
+        endTime: "12:00",
+        sessionIds: [006, 404, 005]
+    }
+    - {
+    	startTime: "12:00",
+    	endTime: "13:00",
+    	sessionIds: [503]
+    }
+- 
+  date: "2018-03-04"
+  dateReadable: "March 4"
+  tracks: 
+    - {title: "Hackathon", color: "#90be4e"}
+  timeslots: 
+    - {
+        startTime: "8:30",
+        endTime: "9:00",
+        sessionIds: [001]
+    }
+    - {
+    	startTime: "9:00",
+    	endTime: "12:00",
+    	sessionIds: [005]
+    }
+    - {
+    	startTime: "11:00",
+    	endTime: "11:45",
+    	sessionIds: [002]
+    }
+    - {
+    	startTime: "12:00",
+    	endTime: "13:00",
+    	sessionIds: [503]
+    }

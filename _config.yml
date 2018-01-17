@@ -1,0 +1,291 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Triangle Affordable Housing Datajam"
+email: "chris.mathews@wakegov.com"
+description: "Sponsored by NC Data4Good and NC OpenPass"
+baseurl: "/affordable-housing-datajam"
+url: "https://christhedba.github.io"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: 
+googleAnalyticsSiteUrl: 
+siteVerification: 
+
+# Organizer Info
+organizerName: "NC Openpass and NC Data4Good"
+organizerAlternateName: ""
+organizerDescription: "Harnessing the power of data and community to help Triangle agencies to make better decisions around affordable housing."
+organizerEmail: "christhedba@gmail.com"
+organizerLogo: "organizer-logo.png"
+organizerLink: ""
+
+# Head
+metaKeywords: "event, datajam, google, programming, R, python, affordable housing"
+twitterAccount: "@ncopenapss"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: ""
+c4sponsorsUrl: ""
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Schedule"}
+ # - {permalink: "/speakers/", text: "Speakers"}
+ #- {permalink: "/team/", text: "Team"}
+ #- {permalink: "/logistics/", text: "Logistics"}
+ #- {permalink: "/hackathon/", text: "Hackathon"}
+bottomNavigationLinks:
+ - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
+rightNavigationButtons:
+ - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
+
+# Hero Block
+heroImage: "CommWithData.jpg"
+heroTitle: "Triangle Affordable Housing Datajam"
+eventDate: "March 3-4, 2018"
+typeoutTextValues: ''
+typeoutFallback: ""
+heroButtons:
+ - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
+ - {permalink: "/#tickets", text: "Get tickets"}
+
+# About Block
+aboutTitle: "About Triangle Affordable Housing Datajam"
+aboutBlock:
+ - {title: "Conference", image: "conference.jpg", text: "Learn about the latest devlopments in Triangle Open Data" }
+ - {title: "Workshop", image: "workshop.jpg", text: "Learn how journalists use data to build stories and get your hands on some yourself" }
+ - {title: "Hackathon", image: "hackathon.jpg", text: "Bring your analysis skills and passion for public service to help agencies engaged in affordable housing." }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "50", specialCharacter: "+", info: "analysts", detail: "from around the Triangle"}
+ - {count: "16", specialCharacter: "+", info: "hours", detail: "of open data goodness"}
+ - {count: "10", specialCharacter: "+", info: "partner agencies", detail: "solving Affordable Housing"}
+ - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus breakfast and lunch"}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: ""
+rockstarSpeakersCount: 0
+rockstarSpeakersTitle: ""
+rockstarSpeakersButtonText: ""
+
+# Location Block
+locationBlockTitle: "Location"
+eventLocationName: "NC State EB2 Building"
+eventLocationLink: ""
+eventStreetAddress: "890 Oval Dr"
+eventAddressLocality: ", Raleigh"
+eventAddressLocalityRegion: "NC"
+eventPostalCode: "27606"
+eventAddressCountry: ""
+eventStartTime: "2018-03-03T109:00"
+eventDoorTime: "08:00"
+eventEndTime: "2018-03-04T17:00"
+eventPlaceCoordinates: "35.7719, -78.6740"
+mapCenterCoordinates: "35.7719, -78.6740"
+mapMobileCenterCoordinates: "35.7719, -78.6740"
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "NC State Engineering Building II"
+venueFeatures: ["2 huge auditoriums", "breakout rooms", "Located on centenial Campus"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "ncdatajam"
+twitterFeed: ""
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeInfo: "Registration will be open around end of January. Number of tickets are limited. Stay tuned!"
+
+# Tickets Block
+ticketsTitle: "Tickets"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+ -
+  name: "Hackathon"
+  price: "0"
+  priceCurrency: "US Dollar"
+  ticketsNumber: "00"
+  ribbon: ""
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2018-01-28T09:00"
+  validThrough: "2018-03-04T09:00"
+ -
+  name: "Full Conference"
+  price: ""
+  priceCurrency: ""
+  ticketsNumber: "100"
+  ribbon: ""
+  featured: true
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2018-01-28T09:00"
+  validThrough: "2018-03-04T09:00"
+  disabled: false
+ -
+  name: "Full Conference"
+  price: ""
+  priceCurrency: ""
+  ticketsNumber: "100"
+  ribbon: ""
+  featured: true
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  validFrom: "2018-01-28T09:00"
+  validThrough: "2018-03-04T09:00"
+  disabled: false
+  
+# Footer
+socialLinks:
+ - {link: "", icon: "google-plus"}
+ - {link: "", icon: "twitter"}
+ - {link: "", icon: "facebook"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "", text: ""}
+   - {link: "", text: ""}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:", text: ""}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "/cod/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: ""
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: ""
+logisticsMapCenterCoordinates: "35.7719, -78.6740"
+logisticsMapMobileCenterCoordinates: "35.7719, -78.6740"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Raleigh"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Raleigh. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+ - {title: "Hotels", information: 'Raleigh has lots of great hotels. More information will be available later.'}
+directionDetailsWideCards:
+ -
+  # title: "Questions?"
+  # subCards:
+  #  -
+  #   title: "Hotels"
+  #   links:
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  #  -
+  #   title: "Registration"
+  #   links:
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  #  -
+  #   title: "Attendance Details"
+  #   links:
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+  #    - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: true
+
+# Hackathon About Block
+# aboutHackathonTitle: "Meet our themes"
+# hackathonRows:
+#  - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+#  - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
+#  - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+
+# # Hackathon Judges Block
+# judgesImage: "judges.jpg"
+# judgesTitle: "Judges"
+
+# # Hackathon Prizes Block
+# prizesTitle: "Prizes"
+# prizes:
+#  - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+#  - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+#  - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# # Hackathon Location Block
+# hackathonLocationBlockTitle: "Location"
+# hackathonLocationName: "Communa"
+# hackathonLocationLink: "http://communa.net.ua/"
+# hackathonStreetAddress: "1 Halytska St"
+# hackathonAddressLocality: "Lviv"
+# hackathonAddressLocalityRegion: "Lvivska"
+# hackathonPostalCode: "79000"
+# hackathonAddressCountry: "Ukraine"
+# hackathonTimeTitle: "Hack through"
+# hackathonStartTime: "2014-10-24T10:00"
+# hackathonDoorTime: "09:00"
+# hackathonEndTime: "2014-10-25T00:00"
+# viewOnMap: "View on Google Maps"
+# hackathonPlaceCoordinates: "35.7719, -78.6740"
+# hackathonMapCenterCoordinates: 35.7719, -78.6740"
+# hackathonMapMobileCenterCoordinates: "35.7719, -78.6740"
