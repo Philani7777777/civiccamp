@@ -10,8 +10,8 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Triangle Affordable Housing Datajam"
-email: "chris.mathews@wakegov.com"
+title: "NC Open Pass CivicCamp"
+email: "info@ncopenpass.com"
 description: "Sponsored by NC Data4Good and NC OpenPass"
 baseurl: "/civiccamp-website"
 url: "https://ncopenpass.github.io"
@@ -21,10 +21,10 @@ googleAnalyticsSiteUrl:
 siteVerification: 
 
 # Organizer Info
-organizerName: "NC Openpass and NC Data4Good"
+organizerName: "NC Open Pass"
 organizerAlternateName: ""
 organizerDescription: "Harnessing the power of data and community to help Triangle agencies to make better decisions around affordable housing."
-organizerEmail: "christhedba@gmail.com"
+organizerEmail: "info@ncopenpass.com"
 organizerLogo: "organizer-logo.png"
 organizerLink: ""
 
@@ -56,8 +56,8 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "CommWithData.jpg"
-heroTitle: "Triangle Affordable Housing Datajam"
-eventDate: "March 3-4, 2018"
+heroTitle: "NC Open Pass CivicCamp"
+eventDate: "September 21-22, 2018"
 typeoutTextValues: ''
 typeoutFallback: ""
 heroButtons:
@@ -65,7 +65,7 @@ heroButtons:
  - {permalink: "/#tickets", text: "Get tickets"}
 
 # About Block
-aboutTitle: "About Triangle Affordable Housing Datajam"
+aboutTitle: "About NC Open Pass CivicCamp"
 aboutBlock:
  - {title: "Conference", image: "conference.jpg", text: "Learn about the latest devlopments in Triangle Open Data" }
  - {title: "Workshop", image: "workshop.jpg", text: "Learn how journalists use data to build stories and get your hands on some yourself" }
