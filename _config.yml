@@ -65,7 +65,7 @@ heroButtons:
  - {permalink: "/#tickets", text: "Get tickets"}
 
 # About Block
-aboutTitle: "About NC Open Pass CivicCamp"
+aboutTitle: "About NC Open Pass Civic Camp"
 aboutBlock:
  - {title: "Venue", image: "ccnc-venue.jpg", text: "More Info about the venue will posted when available" }
  - {title: "Speakers", image: "ccnc-speakers.jpg", text: "Meet the community members who are going to inspire the community to action" }
