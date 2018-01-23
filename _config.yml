@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "NC Open Pass CivicCamp"
-email: "info@ncopenpass.com"
-description: "Sponsored by NC Data4Good and NC OpenPass"
+title: "NC Open Pass Civic Camp"
+email: "chairs@ncopenpass.com"
+description: "Sponsored by NC OpenPass"
 baseurl: "/civiccamp-website"
 url: "https://ncopenpass.github.io"
 permalink: "/blog/:title"
@@ -23,8 +23,8 @@ siteVerification:
 # Organizer Info
 organizerName: "NC Open Pass"
 organizerAlternateName: ""
-organizerDescription: "Harnessing the power of data and community to help Triangle agencies to make better decisions around affordable housing."
-organizerEmail: "info@ncopenpass.com"
+organizerDescription: "Civic Camp NC is an annual civic tech event that brings citizens, government change agents, and businesses together to openly innovate and improve our communities.."
+organizerEmail: "chairs@ncopenpass.com"
 organizerLogo: "organizer-logo.png"
 organizerLink: ""
 
@@ -44,10 +44,10 @@ c4sponsorsUrl: ""
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- # - {permalink: "/speakers/", text: "Speakers"}
- #- {permalink: "/team/", text: "Team"}
- #- {permalink: "/logistics/", text: "Logistics"}
+ #- {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/team/", text: "Team"}
+ - {permalink: "/logistics/", text: "Logistics"}
  #- {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
  - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
@@ -67,9 +67,10 @@ heroButtons:
 # About Block
 aboutTitle: "About NC Open Pass CivicCamp"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "Learn about the latest devlopments in Triangle Open Data" }
- - {title: "Workshop", image: "workshop.jpg", text: "Learn how journalists use data to build stories and get your hands on some yourself" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Bring your analysis skills and passion for public service to help agencies engaged in affordable housing." }
+ - {title: "Venue", image: "ccnc-venue.jpg", text: "More Info about the venue will posted when available" }
+ - {title: "Speakers", image: "ccnc-speakers.jpg", text: "Meet the community members who are going to inspire the community to action" }
+ - {title: "Unconference", image: "ccnc-unconf.jpg", text: "The heart of Civic Camp - a conference built by you - the attendee." }
+ - {title: "Hackathon", image: "ccnc-hackathon.jpg", text: "Build solutuions on the civic topics that inspire you." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
