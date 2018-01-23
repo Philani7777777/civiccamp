@@ -55,8 +55,8 @@ rightNavigationButtons:
  - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
 
 # Hero Block
-heroImage: "CommWithData.jpg"
-heroTitle: "NC Open Pass CivicCamp"
+heroImage: "CivicCampHero.jpg"
+heroTitle: "NC Open Pass Civic Camp"
 eventDate: "September 21-22, 2018"
 typeoutTextValues: ''
 typeoutFallback: ""
