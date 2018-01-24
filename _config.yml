@@ -48,14 +48,14 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/sponsors/", text: "Sponsors"}
+ - {permalink: "/sponsors/", text: "Sponsors",
       sublinks:
         - title: Sub-item 1
         url: /group/si1
         - title: Sub-item 2
         url: /group/si2
         - title: Sub-item 3
-        url: /group/si3
+        url: /group/si3}
  #- {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
  - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
