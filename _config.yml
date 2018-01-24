@@ -76,7 +76,7 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "50", specialCharacter: "+", info: "analysts", detail: "from around the Triangle"}
+ - {count: "60", specialCharacter: "+", info: "analysts", detail: "from around the Triangle"}
  - {count: "16", specialCharacter: "+", info: "hours", detail: "of open data goodness"}
  - {count: "10", specialCharacter: "+", info: "partner agencies", detail: "solving Affordable Housing"}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus breakfast and lunch"}
