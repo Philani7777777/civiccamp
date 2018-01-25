@@ -4,9 +4,9 @@
 - title: "Blog"
   href: "/blog/"
 
-- title: "Misc"
-    subcategories:
-    - subtitle: "Example"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+- title: "About"
+  href: "/about/"
+  subcategories:
+    - subtitle: "Code of Conduct"
+      subhref: "/about/code-of-conduct"
+ 
