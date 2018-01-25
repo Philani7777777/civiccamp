@@ -13,10 +13,10 @@
           {% for nav in site.data.nav %}
           {% if nav.subcategories != null %}
           <li>
-            <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} &#x25BC;</a>
+            <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }} &#x25BC;</a>
             <ul>
             {% for subcategory in nav.subcategories %}
-            <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
         {% endfor %}
       </ul>
       {% elsif nav.title == page.title %}
