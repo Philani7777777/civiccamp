@@ -42,19 +42,19 @@ c4sponsorsUrl: ""
 
 
 # Navigation
-navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- #- {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/sponsors/", text: "Sponsors"}
- #- {permalink: "/hackathon/", text: "Hackathon"}
-bottomNavigationLinks:
- - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
-rightNavigationButtons:
- - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
+# navigationLinks:
+#  - {permalink: "/", text: "Home"}
+#  - {permalink: "/blog/", text: "Blog"}
+#  #- {permalink: "/schedule/", text: "Schedule"}
+#  - {permalink: "/speakers/", text: "Speakers"}
+#  - {permalink: "/team/", text: "Team"}
+#  - {permalink: "/logistics/", text: "Logistics"}
+#  - {permalink: "/sponsors/", text: "Sponsors"}
+#  #- {permalink: "/hackathon/", text: "Hackathon"}
+# bottomNavigationLinks:
+#  - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
+# rightNavigationButtons:
+#  - {link: "http://bit.ly/2D7bhLc", text: "Become a partner"}
 
 # Hero Block
 heroImage: "CivicCampHero.jpg"
