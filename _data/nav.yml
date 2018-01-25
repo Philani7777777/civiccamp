@@ -1,12 +1,18 @@
-- title: "Home"
-  href: "/"
-
-- title: "Blog"
-  href: "/blog/"
-
-- title: "About"
-  href: "/about/"
-  subcategories:
-    - subtitle: "Code of Conduct"
-      subhref: "/about/code-of-conduct"
- 
+- title: About
+  url: /about.html
+- title: Team
+  url: /team.html
+- title: Contact
+  url: /contact.html
+- title: Store
+  url: /store.html
+- title: Support
+  url: /support.html
+  sublinks:
+    - title: FAQ
+      url: /faq.html
+    - title: Documentation
+      url: /documentation.html
+    - title: separator
+    - title: Customer Support
+      url: /customer-support.html

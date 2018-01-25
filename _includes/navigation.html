@@ -6,26 +6,35 @@
     <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header">
         <div class="logo logo-light"></div>
     </a>
-    <nav class="animenu">  
-      <input type="checkbox" id="button">
-      <label for="button" onclick>Menu</label> 
-        <ul>
-          {% for nav in site.data.nav %}
-          {% if nav.subcategories != null %}
-          <li>
-            <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }} &#x25BC;</a>
-            <ul>
-            {% for subcategory in nav.subcategories %}
-            <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+<nav id="navbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+        {% assign links = site.data.nav %}
+        {% for link in links %}
+            {% assign class = nil %}
+            {% if page.url contains link.url %}
+                {% assign class = 'active' %}
+            {% endif %}
+            {% if link.sublinks %}
+                <li class="dropdown {{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in link.sublinks %}
+                            {% if sublink.title == 'separator' %}
+                                <li role="separator" class="divider"></li>
+                            {% else %}
+                                <li>
+                                    <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="{{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                </li>
+            {% endif %}
         {% endfor %}
-      </ul>
-      {% elsif nav.title == page.title %}
-        <li class="active"><a href="{{ nav.url }}">{{ nav.title }}</a></li>
-      {% else %} 
-      <li>
-        <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</nav> 
+    </ul>
+</nav>
 </header>
