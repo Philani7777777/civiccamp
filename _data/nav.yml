@@ -5,7 +5,7 @@
   href: "/blog/"
 
 - title: "Misc"
-  subcategories:
+    subcategories:
     - subtitle: "Example"
       subhref: "#"
     - subtitle: "Example2"
