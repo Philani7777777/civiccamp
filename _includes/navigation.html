@@ -1,10 +1,18 @@
-<navigation>
-  <ul>
-    {% for nav in site.data.nav %}
-      {% if nav.subcategories != null %}
-        <li>
-          <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
-          <ul>
+<header id="top-header" class="top-header">
+    <div class="overlay white-solid"></div>
+    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-menu"></use>
+    </svg>
+    <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header">
+        <div class="logo logo-light"></div>
+    </a>
+    <nav>
+      <ul>
+        {% for nav in site.data.nav %}
+          {% if nav.subcategories != null %}
+          <li>
+            <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
+      <ul>
           {% for subcategory in nav.subcategories %}
             <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
           {% endfor %}
@@ -21,4 +29,5 @@
       {% endif %}
     {% endfor %}
   </ul>
-</navigation> 
+  </nav> 
+</header>
