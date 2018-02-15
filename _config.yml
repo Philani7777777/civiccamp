@@ -14,7 +14,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "NC Open Pass Civic Camp"
 email: "chairs@ncopenpass.com"
 description: "Sponsored by NC OpenPass"
-baseurl: "/civiccamp-website"
+baseurl: "/civiccamp"
 url: "https://ncopenpass.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: 
